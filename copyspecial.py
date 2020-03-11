@@ -89,7 +89,7 @@ def main():
             print("Directory made, now lets copy files to directory")
             copy_to(paths, args.todir)
     if args.tozip:
-        # print("Ye are zipping")
+        print("Ye are zipping")
         output = "zip -j " + args.tozip
         for file in paths:
             output += " " + file
